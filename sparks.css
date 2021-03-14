@@ -1,0 +1,61 @@
+body{
+    font-family: sans-serif;
+    height: 100%; width: 100%;
+    background-color:#D4E8E2;
+}
+
+.sidebar{
+    height:100%;
+    width: 180px;
+    position:fixed;
+    z-index: 1;
+    top:0;
+    left:0;
+    overflow-x: hidden;
+    padding-left: 30px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+-moz-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+background-color:#E5E7E9;
+}
+ img{  height:60px; width:60px; margin-bottom: 100px;}
+ .sidebar a {
+     font-size: 20px;
+     color: black;
+     display: block;
+    
+     text-decoration: none;
+ }
+ .sidebar a:hover {
+    color: black;
+  }
+ .fa{
+     padding-top: 20px;
+     color: #726e77e7;
+     text-align: center; margin: 5 5 5 5;
+     font-size:10px;
+}
+
+ .logo{
+     height:20px;
+     padding-top:30px;
+     padding-bottom:70px;
+ }
+ 
+ .main{
+     margin-top: 100px;
+    margin-left: 140px; 
+    padding-top: 30px; padding-left:50px;
+    background-color:#D4E8E2;
+    height:800px; width:100%;}
+.container-fluid{
+    margin-left: 140px; 
+    padding-top: 30px; padding-left:50px;
+    background-color:#D4E8E2;
+    height:800px; width:100%;
+    background-image: url("Book2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
